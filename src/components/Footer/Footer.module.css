@@ -28,7 +28,7 @@
 
 
 
-@media (max-width: 760px) {
+@media (max-width: 600px) {
 
   .container .logo {
     flex-direction: column;
