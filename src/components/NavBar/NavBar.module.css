@@ -1,0 +1,133 @@
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 2% 15%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 10;
+  overflow: hidden;
+}
+
+.container .logo {
+  padding-top: 3%;
+  cursor: pointer;
+}
+
+.navigation li {
+  list-style: none;
+  display: block;
+  gap: 5%;
+  color: black;
+  padding: 1%;
+  cursor: pointer;
+}
+
+.navigation ol {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.navigation .membership {
+  background: dodgerblue;
+  color: white;
+  padding: 1% 2%;
+  border-radius: 9px;
+}
+
+
+
+/* Drawer styles */
+
+
+.drawer {
+  padding: 5%;
+}
+
+.drawer .Button {
+  position: fixed;
+  top: 1%;
+  right: 15%;
+  display: none;
+
+}
+
+.drawer li {
+  list-style: none;
+  padding: 5%;
+  padding-bottom: 10%;
+  transition: padding 0.3s ease-in, color 0.3s ease-in;
+}
+
+
+.drawer li:hover {
+  cursor: pointer;
+  padding-left: 0%;
+  color: dodgerblue;
+  border-right: 5px solid dodgerblue;
+}
+
+.drawer .membership {
+  background: dodgerblue;
+  color: white;
+  padding: 5%;
+  border-radius: 9px;
+  margin-top: 5%;
+}
+
+.drawer .membership:hover {
+  padding: 5%;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media (max-width: 1200px) {
+  .container {
+    font-size: 0.9em;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 970px) {
+  .navigation {
+    display: none
+  }
+
+  .drawer .Button {
+    display: block;
+  }
+
+  .container {
+    padding: 5% 15%;
+  }
+}
+
+

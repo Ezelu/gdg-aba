@@ -1,0 +1,128 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5% 0;
+  margin-top: 5%
+}
+
+
+
+.text .blue {
+  color: dodgerblue;
+}
+
+.text .red {
+  color: red;
+}
+
+.text .green {
+  color: green;
+}
+
+.text p {
+  display: inline-block;
+  padding: 0 1%;
+}
+
+
+
+
+.text h2 {
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-bottom: 10%;
+}
+
+
+.illustration {
+  margin-top: 4%;
+  position: relative;
+  padding: 0 20%
+}
+
+.illustration .big_img {
+  animation: ellipse 2s ease infinite alternate-reverse;
+  padding-top: 5%;
+}
+
+.illustration .ellipse4 {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  animation: ellipse 1.5s ease infinite alternate-reverse;
+}
+
+.illustration .ellipse12 {
+  position: absolute;
+  top: 25%;
+  right: 0%;
+  animation: ellipse 1s ease infinite alternate-reverse;
+}
+
+.illustration .ellipse8 {
+  position: absolute;
+  bottom: -10%;
+  left: 25%;
+  animation: ellipse 1.5s ease infinite alternate-reverse;
+}
+
+.illustration .ellipse10 {
+  position: absolute;
+  top: 5%;
+  right: 30%;
+  animation: ellipse 1s ease infinite alternate-reverse;
+}
+
+.illustration .grey1 {
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  width: 70px;
+}
+
+.illustration .grey2 {
+  position: absolute;
+  top: 0%;
+  right: 17%;
+  width: 70px;
+}
+
+.illustration .grey3 {
+  position: absolute;
+  bottom: -25%;
+  right: 17%;
+  width: 120px;
+}
+
+.illustration .blue {
+  position: absolute;
+  top: -10%;
+  left: 10%;
+  width: 70px;
+}
+
+.illustration .grey5 {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  width: 70px;
+}
+
+.illustration .yellow {
+  position: absolute;
+  bottom: -15%;
+  left: 10%;
+  width: 90px;
+}
+
+
+
+@keyframes ellipse {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1)
+  }
+}

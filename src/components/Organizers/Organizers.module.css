@@ -1,0 +1,101 @@
+.container {
+  padding: 8% 15%;
+  background: rgb(248, 240, 240);
+  position: relative;
+  z-index: 5;
+}
+
+.container h2 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.container .box {
+  padding: 5%;
+  box-shadow: 0 0 10px rgb(212, 212, 212);
+  border-radius: 10px;
+  background: white;
+}
+
+
+.container .box .avatar {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+
+.box aside {
+  padding-top: 10%;
+  text-align: center;
+}
+
+
+.box .links {
+  display: flex;
+  padding: 0 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box aside h3 {
+  margin-bottom: 4%;
+}
+
+.box aside p {
+  margin-bottom: 4%;
+}
+
+.see_more {
+  color: dodgerblue;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+.container .green {
+  position: absolute;
+  z-index: -1;
+  bottom: 20%;
+  right: 3%;
+  width: 200px
+}
+
+
+.container .red {
+  position: absolute;
+  z-index: -1;
+  bottom: 10%;
+  left: 5%;
+  width: 70px
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px ) {
+  .container .box .avatar {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+
+@media (max-width: 400px ) {
+  .container .box .avatar {
+    height: 150px;
+    width: 150px;
+  }
+}

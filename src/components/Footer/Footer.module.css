@@ -1,0 +1,54 @@
+.container {
+  padding: 2% 15%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container .icons {
+  justify-content: flex-end;
+}
+
+.container p, img {
+  padding-right: 3%;
+  color: dodgerblue
+}
+
+
+
+
+
+
+
+
+@media (max-width: 760px) {
+
+  .container .logo {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .container .icons {
+    justify-content: space-between;
+    margin-bottom: 3%;
+  }
+  .container .logo {
+    justify-content: center;
+  }
+}

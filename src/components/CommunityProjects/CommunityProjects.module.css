@@ -1,0 +1,14 @@
+.container {
+  padding: 5% 0 5% 15%;
+  text-align: center;
+}
+
+.tabs {
+  padding-right: 15%;
+}
+
+.tabs h2 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+  margin-bottom: 5%;
+}
