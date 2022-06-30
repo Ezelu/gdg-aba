@@ -1,7 +1,8 @@
 .container {
   display: grid;
   grid-template-columns: 30% 70%;
-  padding: 2% 15%;
+  padding: 0% 15%;
+  padding-top: 1%;
   position: fixed;
   top: 0;
   left: 0;
@@ -125,9 +126,12 @@
     display: block;
   }
 
-  .container {
-    padding: 5% 15%;
-  }
 }
 
+
+@media (max-width: 650px) {
+  .container {
+    padding: 3% 15%;
+  }
+}
 
