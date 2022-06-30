@@ -4,20 +4,29 @@ This repository contains files for the GDG Aba build in 2 weeks challenge (Web D
 
 ## TECHNOLOGIES USED
 > HTML & CSS
+> 
 > JavaScript
+> 
 > React
+> 
 > MaterialUI
 
 ## FEATURES
 > Mobile Responsive
+> 
 > PWA ( Not fully completed )
+> 
 > Clear Github documentation
 
 ## HOW TO RUN THE WEB APP
 > Fork and Clone the Repository to your Local Machine
+> 
 > Navigate to the parent folder using the CMD
+> 
 > Run npm start
+> 
 > Visit localhost:3000
+> 
 > Voila!, your web app is now powered up
 
 Live Link below
